@@ -1,0 +1,47 @@
+<div class="row skin-setttings">
+    <div class="col-md-12">
+        <label for="activity_description">Name</label>
+        <div class="input-group">
+            <input type="text" class="form-control input-sm" id="activity_name">
+            <span class="input-group-btn">
+                <button class="btn btn-round btn-sm btn-default" id="runActivity">
+                    <i class="fa fa-play"></i>
+                </button>
+                <button class="btn btn-round btn-sm btn-warning ">
+                    <i class="fa fa-lock"></i>
+                </button>
+		    </span>
+        </div>
+        <label for="activity_description">Description</label>
+        <textarea rows="1" class="form-control input-sm" id="activity_description"></textarea>
+    </div>
+</div>
+<div id="activity_settings"  class="row skin-setttings">
+    <div class="col-md-12">
+        <ul  style="padding-top: 15px" class="nav nav-tabs" >
+            <li id="showConfig" class="active">
+                <a >Config</a>
+            </li>
+            <li id="showInput">
+                <a >Schema</a>
+            </li>
+            <li id="showOutput">
+                <a >Output</a>
+            </li>
+        </ul>
+        <div>
+            <div id="inspectorPalette" title="Inspector">
+
+            </div>
+            <div id="activity_input" ></div>
+            <div id="activity_out_panel">
+                <button class="pull-right btn btn-round btn-sm btn-warning" id="set_out_schema">
+                    <i class="fa fa-save">Set As Output Schema</i>
+                </button>
+                <div id="activity_output">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

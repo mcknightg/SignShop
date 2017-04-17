@@ -1,0 +1,143 @@
+@charset "utf-8";
+.string { color: #d7ffd7; }
+.number { color: #ffeed6; }
+.boolean { color: #e4ecff; }
+.null { color: #ffe5fa; }
+ol.node {
+    list-style-position: inside;
+    list-style-type: square;
+    padding: 0px;
+    margin:0px;
+    margin-left: 5px;
+    display:block;
+}
+
+ol.children {
+    list-style-position:outside;
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+    margin-left: 5px;
+}
+
+.key{
+    margin:0px;
+    padding-left:10px;
+    color: #fdfff0;
+}
+
+.leaf{
+    color: #0a7a1a;
+    font-size: 12pt;
+    font-style: normal;
+    margin:0px;
+    padding-left:10px;
+    display:block;
+}
+.node_key{
+    color: #18bc93;
+}
+.hover-node{
+    background-color: rgba(239, 254, 89, 0.35);
+    padding-left:10px;
+    padding-right:10px;
+    color: #1217ff;
+    border: rgba(0, 0, 0, 0.49) solid 1px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+.drop-hover-node{
+    background-color: rgba(78, 174, 153, 1.0);
+    padding-left:10px;
+    padding-right:10px;
+    color: #ffffff;
+    border: rgba(67, 67, 67, 1.0) solid 5px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+.hover-node.ui-droppable{
+    padding-left:10px;
+    padding-right:10px;
+}
+ 
+
+
+/* CSS Document */
+ol.je-node{
+    list-style: none;
+    padding:1px;
+    padding-left:0px;
+    margin:0;
+    margin-left:0px;
+    font-size:14px;
+    cursor: pointer;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    white-space: nowrap;
+    /*overflow:auto;*/
+}
+
+ol.je-children{
+    padding:1px;
+  list-style: none;
+  padding-left:8px;
+  margin:0;
+  margin-left:8px;
+  font-size:14px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+
+li.je-leaf{
+    margin-left:0px; /*numbers inside*/
+    padding:1px;
+    /*vertical-align:top;*/
+    vertical-align:middle;
+    height:18px;
+    font-size:14px;
+    cursor: pointer;
+    color: #0a7a1a;
+    white-space: nowrap;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+} 
+
+
+
+span.je-key-input{
+    padding:0;
+    padding-left:5px;
+	text-align:left;
+	height:18px;
+	vertical-align:top;
+    margin-bottom:0;
+    color: #fdfff0;
+	font-size:14px;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+span.je-val-input{
+    color: #aeffb8;
+    text-align:left;
+    height:18px;
+    padding:0;
+    margin:0;
+    vertical-align:top;
+    font-size:14px;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+
+
+.je-tree-badge{
+  margin-left:3px;
+  padding: 1px 9px 1px;
+    -webkit-border-radius: 9px;
+       -moz-border-radius: 9px;
+            border-radius: 9px;
+  background-color: #d7ede1;
+  color: #555555;
+}

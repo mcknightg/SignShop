@@ -1,0 +1,30 @@
+
+
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="sidebar-nav">
+            <li class="center">
+
+                <div ng-include="'components/profile/profile.html'"></div>
+
+            </li>
+            <li>
+                <a ui-sref="admin"><i class="fa fa-laptop"></i> <span class="nav-label">Admin</span> </a>
+            </li>
+                    <li ui-sref-active="active">
+            <a ui-sref="signshop.sign"><i class="fa fa-table"></i> <span class="nav-label">sign</span></a>
+            </li>
+                    <li ui-sref-active="active">
+            <a ui-sref="signshop.material"><i class="fa fa-table"></i> <span class="nav-label">material</span></a>
+            </li>
+                    <li ui-sref-active="active">
+            <a ui-sref="signshop.customer"><i class="fa fa-table"></i> <span class="nav-label">customer</span></a>
+            </li>
+                    <li ui-sref-active="active">
+            <a ui-sref="signshop.customersigns"><i class="fa fa-table"></i> <span class="nav-label">customersigns</span></a>
+            </li>
+        
+        </ul>
+
+    </div>
+</nav>
